@@ -1,3 +1,8 @@
+/* CODE MIRRORED FROM OTHER SOURCE. CREDIT GOES TO: 
+      Tristen Forsythe Brown @ http://tristen.ca/tablesort/demo/
+   This mirror has been altered. Please obtain an original from the above if needed.
+*/
+
 // Add to your HTML Header: <script src="https://senilepenguin.github.io/PublicScripting/JavaScript/TableSort/tablesort.js"></script>
 
 // USAGE:
