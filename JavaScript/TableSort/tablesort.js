@@ -1,3 +1,12 @@
+// Add to your HTML Header: <script src="https://senilepenguin.github.io/PublicScripting/JavaScript/TableSort/tablesort.js"></script>
+
+// USAGE:
+// 1. Give your table an ID and Class of: (id="sort" class="sort")
+// 2. Ensure your table headers are using the THead/TH format
+//         EX: <thead> <th>HEADER_1</th> <th>HEADER_2</th> <th>HEADER_3</th> </thead>
+// 3. Apply JavaScript to document to make table sortable (an HMTL <script> block work great for this!)
+//         EX: new Tablesort(document.getElementById('sort'));
+
 ;(function() {
   function Tablesort(el, options) {
     if (!(this instanceof Tablesort)) return new Tablesort(el, options);
@@ -46,7 +55,7 @@
 
   // Stable sort function
   // If two elements are equal under the original sort function,
-  // then there relative order is reversed
+  // then their relative order is reversed
   var stabilize = function(sort, antiStabilize) {
     return function(a, b) {
       var unstableResult = sort(a.td, b.td);
