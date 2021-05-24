@@ -1,3 +1,9 @@
+/*
+  Add to your HTML Header: <link href="https://senilepenguin.github.io/PublicScripting/JavaScript/TableSort/tablesort.css" rel="stylesheet">
+
+  Some (very) rough CSS for styling the pages
+*/
+
 th[role=columnheader]:not(.no-sort) {
 	cursor: pointer;
 }
