@@ -1,0 +1,27 @@
+/*
+  Add to your HTML Header: <link href="https://senilepenguin.github.io/PublicScripting/JavaScript/TabbedPaging/tabbedpaging.css" rel="stylesheet">
+
+  Some (very) rough CSS for styling the pages
+*/
+
+/* Style tab links */
+.tablink {
+  float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 50%; /*May need overwritted based on tab count. */
+}
+
+.tablink:hover {
+	background-color: #bbb;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+	display: none;
+	padding: 60px 10px;
+	height: 100%;
+}
