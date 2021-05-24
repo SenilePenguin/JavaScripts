@@ -1,3 +1,7 @@
+/* CODE MIRRORED FROM OTHER SOURCE. ALL CREDIT GOES TO: 
+      Tristen Forsythe Brown @ http://tristen.ca/tablesort/demo/
+*/
+
 (function(){
   var cleanNumber = function(i) {
     return i.replace(/[^\-?0-9.]/g, '');
